@@ -1,0 +1,77 @@
+/* main.css */
+
+/* Basic reset & body defaults */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Container for the two-column layout */
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;  /* center the container */
+}
+
+/* Aside column */
+aside {
+  width: 25%;
+  background-color: #ddd;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Main content column */
+main {
+  width: 75%;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Float-right helper (for Sampson page if required) */
+.float-right {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+/* Additional optional styling */
+ul {
+  list-style-type: square;
+  margin-left: 1.5rem;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #eee;
+  border-left: 5px solid #999;
+}
